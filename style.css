@@ -73,24 +73,7 @@ h1 {
     text-align: center;
     padding: 0 20px;
 }
-/* about me page */
-h2{
-    color: #8B0000;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-p{
-    color: #3d0a05;
-    font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings: "width" 100;
-}
-h3{
-    color: #8B0000;
-}
+
 /* cta view my work */
 .cta-button {
   display: inline-block;
@@ -119,10 +102,60 @@ footer{
     font-family: "Bebas Neue", sans-serif;
     display: flex;
     justify-content: space-between;
-    margin-top: 75px;
+    margin-top: 250px;
     padding: 0px 100px 0px 100px;
 }
 .icons{
     width: 30px;
     height: 30px;
+}
+/* about me page */
+h2{
+    color: #8B0000;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p{
+    color: #3d0a05;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+}
+img{
+    width: 200px;
+    height: 200px;
+    
+}
+.about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 50px;
+    
+}
+.profile{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    margin: 50px 100px 0px 0px;
+    max-width: 1000px;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 50px;
+
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 50px;
 }
