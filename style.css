@@ -12,6 +12,10 @@ html, body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -148,6 +152,11 @@ footer {
 .footer-right {
   display: flex;
   gap: 20px;
+  align-items: center;
+}
+.footer-left,
+.footer-right {
+  display: flex;
   align-items: center;
 }
 
