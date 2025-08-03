@@ -474,22 +474,10 @@ body {
 
 }
 
-.hamburger {
-  display: none;
-  font-size: 30px;
-  cursor: pointer;
-  padding: 10px;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  z-index: 1000;
-}
 
 
 @media (max-width: 600px) {
-  .hamburger {
-    display: block;
-  }
+
   .nav-container {
     display: none;
     flex-direction: column;

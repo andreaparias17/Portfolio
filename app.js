@@ -15,19 +15,6 @@ if (typewriterEl) {
   window.addEventListener("DOMContentLoaded", typeWriter);
 }
 
-// MOBILE MENU TOGGLE
-const navContainer = document.querySelector(".nav-container");
-if (navContainer) {
-  const hamburger = document.createElement("div");
-  hamburger.classList.add("hamburger");
-  hamburger.innerHTML = "&#9776;";
-  navContainer.parentElement.insertBefore(hamburger, navContainer);
-
-  hamburger.addEventListener("click", () => {
-    navContainer.classList.toggle("active");
-  });
-}
-
 // PROJECT CAROUSEL
 document.addEventListener("DOMContentLoaded", function () {
   const cards = document.querySelectorAll(".project-card");
